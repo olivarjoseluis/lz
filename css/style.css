@@ -1,0 +1,171 @@
+header {
+    background-color: rgba(44, 86, 151, .84);
+    height: 70px;
+}
+
+.header {
+    background-image: url(../img/dia-4/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.main-brand {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 60px;
+}
+
+h1, h2, h3, h4 {
+    color: #2C5697;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.img-item {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0.25rem 0;
+}
+
+.layer-opacity {
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000;
+}
+
+.custom-slider-news .owl-stage-outer .owl-stage {}
+
+@media(max-width:991px) {
+    .slider-principal-contenido {
+        top: 60% !important;
+    }
+}
+
+.custom-slider-news .owl-stage-outer .owl-stage .owl-item .slider-principal-contenido {
+    top: 80%;
+    left: 50%;
+    z-index: 1;
+    width: 100%;
+    padding: 0px 30px;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+}
+
+.custom-slider-news .owl-stage-outer .owl-stage .owl-item .slider-principal-contenido p, .custom-slider-news .owl-stage-outer .owl-stage .owl-item .slider-principal-contenido h4 {
+    color: white;
+}
+
+.custom-slider-news .owl-dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.custom-slider-news .owl-dots .owl-dot {
+    background: transparent;
+    transition: all 0.3s linear;
+    padding: 5px !important;
+    border-radius: 50%;
+    border: 1px solid white !important;
+    margin: 0 5px;
+}
+
+.custom-slider-news .owl-dots .owl-dot.active {
+    background: white !important;
+    transform: scale(1.255);
+}
+
+.custom-slider-news .owl-dots .owl-dot:focus {
+    outline: none;
+}
+
+.button-mettings {
+    padding: 10px 20px;
+    transition: all .5s;
+    background: transparent;
+    color: #2c5697;
+    text-shadow: initial;
+    border: 1px solid #2c5697;
+    border-radius: 3px;
+    text-decoration: none !important;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.button-mettings:hover {
+    color: white;
+    background: #2c5697;
+    text-decoration: none !important;
+}
+
+@media(max-width:991px) {
+    .button-mettings {
+        width: 100%;
+    }
+}
+
+.link-item:hover {
+    text-decoration: none;
+}
+
+.mb-items {
+    margin-bottom: 10%;
+}
+
+.footer-option {
+    display: flex;
+}
+
+.item-footer {
+    font-size: 0.65rem;
+    margin: 0 10px;
+}
+
+.login-option {
+    height: 100%;
+    position: relative;
+}
+
+.row-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.row-footer-mobile {
+    display: none;
+}
+
+@media(max-width:991px) {
+    .row-footer {
+        display: none;
+    }
+    .row-footer-mobile {
+        display: block;
+    }
+    .footer-option {
+        display: block;
+    }
+    .item-footer {
+        font-size: 0.95rem;
+    }
+}
